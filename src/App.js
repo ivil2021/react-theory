@@ -1,4 +1,7 @@
 // import logo from './logo.svg';
+//--- it was in vladilen's video ---//
+// import React, { Component } from 'react';
+//--- it was in vladilen's video ---//
 import React from 'react';
 import './App.css';
 
@@ -11,8 +14,11 @@ function App() {
 
     return React.createElement(
         'div', // type of the element
-        null, // набор опций для нашего дива нулл или пустой объект {}
-        React.createElement('h1', null, 'hello world') // дети, вложенные в див
+        {
+            className: 'App',
+        },
+        // h1 - type, null - options, 'hello world' - content our h1
+        React.createElement('h1', null, 'hello world')
     );
 }
 
