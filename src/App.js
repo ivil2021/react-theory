@@ -16,6 +16,7 @@ class App extends Component {
                 <h1>Hello12345</h1>
 
                 <Car />
+                <Car />
             </div>
         );
     }
