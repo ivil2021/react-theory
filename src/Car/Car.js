@@ -1,15 +1,12 @@
 import React from 'react';
 
-// next line was used because of the alarm
-// eslint-disable-next-line
-// export default () => <div>This is Car component</div>;
-
-const car = () => {
+const car = (props) => {
     return (
         <div>
-            <p>This is Car component</p>
+            <h3>Car name: {props.name}</h3>
             <p>
-                <strong>number: {Math.round(Math.random() * 100)}</strong>
+                year:
+                <strong> {props.year}</strong>
             </p>
         </div>
     );
