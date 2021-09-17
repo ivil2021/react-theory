@@ -8,7 +8,6 @@ const car = (props) => {
                 year:
                 <strong> {props.year}</strong>
             </p>
-            {props.children}
         </div>
     );
 };
