@@ -5,8 +5,7 @@ const car = (props) => {
         <div>
             <h3>Car name: {props.name}</h3>
             <p>
-                year:
-                <strong> {props.year}</strong>
+                year:<strong> {props.year}</strong>
             </p>
         </div>
     );
