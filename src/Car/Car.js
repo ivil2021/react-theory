@@ -7,6 +7,7 @@ const car = (props) => {
             <p>
                 year:<strong> {props.year}</strong>
             </p>
+            <button onClick={props.onChangeTitle}>Click</button>
         </div>
     );
 };
